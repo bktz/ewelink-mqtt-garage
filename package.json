@@ -1,0 +1,16 @@
+{
+  "name": "garage-mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ewelink-api": "^2.0.0",
+    "mqtt": "^3.0.0",
+    "simple-node-logger": "^18.12.24"
+  }
+}
