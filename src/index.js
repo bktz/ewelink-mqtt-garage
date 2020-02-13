@@ -142,7 +142,9 @@ var garageState;
 
         await connection.openWebSocket(async data => {
             // data is the message from eWeLink
-            log.info("Websocket: ", data);
+            if(data !== "pong") {
+                log.info("Websocket: ", data);
+            }
         
             //Publish Garage Status
             if(data.userAgent === "device") {
