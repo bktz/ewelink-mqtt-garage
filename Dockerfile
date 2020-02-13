@@ -1,5 +1,4 @@
-
-FROM node:12.15.0-alpine3.11
+FROM node:12.15.0
 
 COPY src /garage
 
