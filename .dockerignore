@@ -1,6 +1,8 @@
 .git
 .DS_Store
 .gitignore
+.idea
 README.md
 src/node_modules
 src/config/config.js
+src/config/config_example.js

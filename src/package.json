@@ -1,10 +1,14 @@
 {
   "name": "garage-mqtt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ewelink mqtt garage project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/bktz/ewelink-mqtt-garage.git"
   },
   "author": "",
   "license": "ISC",
